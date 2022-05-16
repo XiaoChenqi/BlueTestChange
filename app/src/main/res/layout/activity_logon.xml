@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+<!--        <com.qmuiteam.qmui.widget.QMUITopBarLayout-->
+<!--            android:id="@+id/ui_topbar"-->
+<!--            style="@style/commonTopbarStyle"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/fl_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="46dp"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingRight="@dimen/dp_20">
+
+               <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintTextAppearance="@style/logon_hint">
+
+                   <EditText
+                       android:id="@+id/et_username"
+                       style="@style/logon_et"
+                       android:hint="@string/app_login_input_name_hint"
+                       android:inputType="text" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/iv_clear_username"
+                    android:layout_width="@dimen/dp_19"
+                    android:layout_height="@dimen/dp_19"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_11"
+                    android:layout_toLeftOf="@+id/temp_view"
+                    android:background="@drawable/icon_delete_et_selector"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"/>
+
+                <View
+                    android:id="@+id/temp_view"
+                    android:layout_width="@dimen/dp_16"
+                    android:layout_height="@dimen/dp_16"
+                    android:visibility="invisible"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_13"
+                android:padding="@dimen/dp_20">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintTextAppearance="@style/logon_hint">
+
+                    <EditText
+                        android:id="@+id/et_password"
+                        style="@style/logon_et"
+                        android:hint="@string/app_login_input_password_hint"
+                        android:inputType="textPassword"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/iv_clear_password"
+                    android:layout_width="@dimen/dp_19"
+                    android:layout_height="@dimen/dp_19"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_11"
+                    android:layout_toLeftOf="@+id/button_eye_iv"
+                    android:background="@drawable/icon_delete_et_selector"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/button_eye_iv"
+                    android:layout_width="@dimen/dp_16"
+                    android:layout_height="@dimen/dp_16"
+                    android:layout_alignRight="@id/til_password"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/fm_icon_eye_hide"
+                    android:scaleType="center"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_logon"
+                style="@style/btn_main_color_style"
+                android:layout_margin="@dimen/dp_20"
+                android:text="@string/login"/>
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:padding="@dimen/dp_20"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_copyright"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:paddingBottom="@dimen/dp_20"-->
+<!--                android:paddingLeft="@dimen/dp_8"-->
+<!--                android:paddingRight="@dimen/dp_8"-->
+<!--                android:paddingTop="@dimen/dp_8"-->
+<!--                android:text="@string/fm_copyright"-->
+<!--                android:textColor="@color/grey_6"-->
+<!--                android:textSize="@dimen/sp_12"/>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/keyboardViewPlace"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:orientation="vertical"/>-->
+</RelativeLayout>

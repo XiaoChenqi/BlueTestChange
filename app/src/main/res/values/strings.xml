@@ -1,0 +1,276 @@
+<resources>
+    <string name="app_name">rgb分析Demo</string>
+
+    <string name="activity_safe_warning">已切换至后台运行</string>
+    <string name="fm_copyright">FacilityONE Technology</string>
+    <string name="login">登录</string>
+    <!--发送短信成功-->
+    <string name="app_send_sms_success">发送短信成功</string>
+    <!--发送短信失败-->
+    <string name="app_send_sms_fail">发送短信失败</string>
+    <!--无标题-->
+    <string name="app_no_title">无标题</string>
+    <!--无摘要-->
+    <string name="app_no_content">无摘要</string>
+    <!--未下载-->
+    <string name="app_not_download">未下载</string>
+    <!--已下载-->
+    <string name="app_download">已下载</string>
+    <!--下载失败-->
+    <string name="app_download_fail">下载失败</string>
+    <!--待更新-->
+    <string name="app_download_new">待更新</string>
+    <!--关于-->
+    <string name="app_about">关于</string>
+    <!--绑定手机号-->
+    <string name="app_bind_phone">绑定手机号</string>
+    <!--重新获取-->
+    <string name="app_get_again">重新获取</string>
+    <!--输入的手机格式不正确，请检查-->
+    <string name="app_bind_phone_input_error">输入的手机格式不正确，请检查</string>
+    <!--请输入新手机号码-->
+    <string name="app_new_phone_number">请输入新手机号码</string>
+    <!--请输入手机号-->
+    <string name="app_phone_number">请输入手机号</string>
+    <!--请输入验证码-->
+    <string name="app_input_verify_code">请输入验证码</string>
+    <!--手机验证失败-->
+    <string name="app_check_phone_error">手机验证失败</string>
+    <!--验证码不正确-->
+    <string name="app_verify_code_error">验证码不正确</string>
+    <!--清除缓存-->
+    <string name="app_clear_cache_title">清除缓存</string>
+    <!--推送开关-->
+    <string name="app_setting_push_toggle">推送开关</string>
+    <!--清除-->
+    <string name="app_clear">清除</string>
+    <!--是否清除所选缓存数据-->
+    <string name="app_clear_cache_check_tip">是否清除所选缓存数据</string>
+    <!--请先选择需要清除的缓存数据-->
+    <string name="app_clear_cache_empty_tip">请先选择需要清除的缓存数据</string>
+    <!--清除完成-->
+    <string name="app_clear_cache_ok">清除完成</string>
+    <!--意见反馈-->
+    <string name="app_feedback_title">意见反馈</string>
+    <!--我的反馈-->
+    <string name="app_my_feedback">我的反馈</string>
+    <!--选择照片-->
+    <string name="app_select_photo_title">选择照片</string>
+    <!--从相册中选择-->
+    <string name="app_select_photo">从相册选择</string>
+    <!--拍照-->
+    <string name="app_take_photo">拍照</string>
+    <!--取消-->
+    <string name="app_cancel">取消</string>
+    <!--确定-->
+    <string name="app_confirm">确定</string>
+    <!--你最多可以选择%d张图片-->
+    <string name="app_select_photo_at_most">你最多可以选择%d张图片</string>
+    <!--内容不能少于%d个字-->
+    <string name="app_feedback_content_hint">内容不能少于%d个字</string>
+    <!--我的-->
+    <string name="app_my_title">我的</string>
+    <!--消息-->
+    <string name="app_message_title">消息</string>
+    <!--工作-->
+    <string name="app_work_title">工作</string>
+    <!--无项目名-->
+    <string name="app_no_project_name">无项目名</string>
+    <!--该消息不属于本项目，请选择相应项目进行处理!-->
+    <string name="app_msg_other_project_tip">该消息不属于本项目，请选择相应项目进行处理</string>
+    <!--全部已读-->
+    <string name="app_message_all_mark_read">全部已读</string>
+    <!--全部删除-->
+    <string name="app_message_all_del">全部删除</string>
+    <!--无更多数据-->
+    <string name="app_no_more_data">无更多数据</string>
+    <!--修改头像-->
+    <string name="app_edit_head">修改头像</string>
+    <!--设备信息-->
+    <string name="app_device_info_tip">设备信息</string>
+    <!--设备类型信息-->
+    <string name="app_device_type">设备类型信息</string>
+    <!--位置信息-->
+    <string name="app_location">位置信息</string>
+    <!--部门信息-->
+    <string name="app_department">部门信息</string>
+    <!--优先级信息-->
+    <string name="app_priority">优先级信息</string>
+    <!--工作流程信息-->
+    <string name="app_work_flow">工作流程信息</string>
+    <!--服务类型信息-->
+    <string name="app_service_type">服务类型信息</string>
+    <!--需求类型信息-->
+    <string name="app_requirement_type">需求类型信息</string>
+    <!--离线下载-->
+    <string name="app_outline_load">离线下载</string>
+    <!--下载完成-->
+    <string name="app_download_success">下载完成</string>
+    <!--二维码-->
+    <string name="app_quick_dowenload">二维码</string>
+    <!--重置密码-->
+    <string name="app_reset_password">重置密码</string>
+    <!--请输入原密码-->
+    <string name="app_input_old_password">请输入原密码</string>
+    <!--请输入新密码-->
+    <string name="app_input_new_password">请输入新密码</string>
+    <!--请确认新密码-->
+    <string name="app_input_new_password2">请确认新密码</string>
+    <!--请确认旧密码是否输入正确-->
+    <string name="app_input_old_password_error">请确认旧密码是否输入正确</string>
+    <!--两次输入的密码不一致，请确认。-->
+    <string name="app_input_new_password_not_equal">两次输入的密码不一致，请确认</string>
+    <!--新密码长度必须不少于5位-->
+    <string name="app_new_password_length_error">新密码长度必须不少于5位</string>
+    <!--新旧密码相同，请确认-->
+    <string name="app_input_error_new_equal_old">新旧密码相同，请确认</string>
+    <!--设置-->
+    <string name="app_setting">设置</string>
+    <!--提示-->
+    <string name="app_tip_title">提示</string>
+    <!--是否退出登录-->
+    <string name="app_login_out_tip">是否退出登录</string>
+    <!--当前为最新版本-->
+    <string name="app_software_newest">当前为最新版本</string>
+    <!--未开启(点击设置)-->
+    <string name="app_unopen">未开启(点击设置)</string>
+    <!--已开启-->
+    <string name="app_open">已开启</string>
+    <!--版本记录-->
+    <string name="app_version_history">版本记录</string>
+    <!--检查更新-->
+    <string name="app_setting_software_update">检查更新</string>
+    <!--退出登录-->
+    <string name="app_user_login_out">退出登录</string>
+    <!--操作成功-->
+    <string name="app_operate_success">操作成功</string>
+    <!--操作失败-->
+    <string name="app_operate_fail">操作失败</string>
+    <!--谢谢您的宝贵意见-->
+    <string name="app_feedback_ok">谢谢您的宝贵意见</string>
+    <!--反馈失败-->
+    <string name="app_feedback_failure">反馈失败</string>
+    <!--工单-->
+    <string name="app_work_order">工单</string>
+    <!--巡检-->
+    <string name="app_patrol">巡检</string>
+    <!--计划性维护-->
+    <string name="app_maintenance">计划性维护</string>
+    <!--资产-->
+    <string name="app_asset">资产</string>
+    <!--需求-->
+    <string name="app_demand">需求</string>
+    <!--库存-->
+    <string name="app_material">库存</string>
+    <!--合同-->
+    <string name="app_contract">合同</string>
+    <!--检测-->
+    <string name="app_detection">检测</string>
+    <!--承接查验-->
+    <string name="app_inspection">承接查验</string>
+    <!--公告-->
+    <string name="app_affiche">公告</string>
+    <!--暂无-->
+    <string name="app_no">暂无</string>
+    <!--恭喜您，密码修改成功-->
+    <string name="app_password_reset_success">恭喜您，密码修改成功</string>
+    <!--密码设置失败，请检查密码输入是否正确-->
+    <string name="app_password_reset_fail">密码设置失败，请检查密码输入是否正确</string>
+    <!--用户名或密码不能为空-->
+    <string name="app_login_input_error">用户名或密码不能为空</string>
+    <!--请输入服务器IP地址-->
+    <string name="app_login_modify_server_ip_title">请输入服务器IP地址</string>
+    <!--请输入正确的IP地址-->
+    <string name="app_ip_error_tip">请输入正确的IP地址</string>
+    <!--其他-->
+    <string name="app_project_other">其他</string>
+    <!--当前-->
+    <string name="app_project_current">当前</string>
+    <!--项目选择-->
+    <string name="app_project_select">项目选择</string>
+    <!--该项目已到期-->
+    <string name="app_project_expired_tip">该项目已到期</string>
+    <!--信息纵览-->
+    <string name="app_project_select_chart_title">信息纵览</string>
+    <!--再按一次退出-->
+    <string name="app_press_exit_again">再按一次退出</string>
+    <!--上海费哲 版权所有-->
+    <string name="about_app">上海费哲 版权所有\nCopyright © 2006-%d FacilityONE.\nAll Rights Reserved.</string>
+    <!--您的旧手机号码-->
+    <string name="app_bind_phone_old_phone_number">您的旧手机号码</string>
+    <!--请输入新手机号码-->
+    <string name="app_bind_phone_input_new_phone_number">请输入新手机号码</string>
+    <!--请输入验证码-->
+    <string name="app_bind_phone_input_verify_code">请输入验证码</string>
+    <!--获取验证码-->
+    <string name="app_bind_phone_get_verify_code">获取验证码</string>
+    <!--清除临时文件-->
+    <string name="app_clear_cache_temp_file_tip">清除临时文件</string>
+    <!--清除离线数据-->
+    <string name="app_clear_cache_base_offline_data_tip">清除离线数据</string>
+    <!--清除巡检任务-->
+    <string name="app_clear_cache_patrol_task_tip">清除巡检任务</string>
+    <!--清除基础设置-->
+    <string name="app_clear_cache_base_setting_tip">清除基础设置</string>
+    <!--您留下的每个字都将帮助改善我们的产品，期待您的反馈!(内容不能少于5个字)-->
+    <string name="app_feedback_content_hint_tip">您留下的每个字都将帮助改善我们的产品，期待您的反馈!(内容不能少于5个字)</string>
+    <!--提交-->
+    <string name="app_submit">提交</string>
+    <!--我的报障-->
+    <string name="app_my_report">我的报障</string>
+    <!--用户名-->
+    <string name="app_login_input_name_hint">用户名</string>
+    <!--密码-->
+    <string name="app_login_input_password_hint">密码</string>
+    <!--一键下载-->
+    <string name="app_outline_data_one_key_download">一键下载</string>
+    <!--请输入项目名(如创新园、cxy、chuangxinyuan)-->
+    <string name="app_search_box_et_hint">请输入项目名(如创新园、cxy、chuangxinyuan)</string>
+    <!--标记为已读-->
+    <string name="app_readed">标记为已读</string>
+    <!--删除-->
+    <string name="app_delete">删除</string>
+    <!--更多-->
+    <string name="app_more">更多</string>
+    <!--(已到期)-->
+    <string name="app_project_expired_status">(已到期)</string>
+    <!--正在处理请稍后-->
+    <string name="app_is_doing">正在处理请稍后...</string>
+    <!--应用分享-->
+    <string name="app_share">&#160;应用分享</string>
+    <!--专业的设施服务管理助手，比您更懂您的需求。-->
+    <string name="app_qrcode_share_desc">专业的设施服务管理助手，比您更懂您的需求</string>
+    <!--微信-->
+    <string name="app_wechat">微信</string>
+    <!--QQ-->
+    <string name="app_qq">QQ</string>
+    <!--钉钉-->
+    <string name="app_dingding">钉钉</string>
+    <!--请选择分享平台-->
+    <string name="app_share_plateform">请选择分享平台</string>
+    <!--取消分享-->
+    <string name="app_share_cancel">取消分享</string>
+    <!--暂无此模块权限-->
+    <string name="app_no_permission">暂无该模块权限</string>
+    <!--头像修改成功-->
+    <string name="app_edit_head_success">头像修改成功</string>
+    <!--未读-->
+    <string name="app_unread_title">未读</string>
+    <!--全部-->
+    <string name="app_all_title">全部</string>
+    <!--是否删除该消息-->
+    <string name="app_delete_msg_tip">是否删除该条消息</string>
+    <!--是否删除全部消息-->
+    <string name="app_delete_all_msg_tip">是否删除全部消息</string>
+    <!--暂无模块权限-->
+    <string name="app_no_permission_tip">暂无模块权限</string>
+    <!--暂无项目-->
+    <string name="app_no_project">暂无项目</string>
+    <string name="android_no_network_warning">网络不给力，请检查网络设置。</string>
+
+
+    <!--拒绝权限会导致某些功能异常-->
+    <string name="arch_permission_deny_tip">拒绝权限会导致某些功能异常</string>
+    <!--不支持的文件-->
+    <string name="arch_file_error">不支持的文件</string>
+</resources>

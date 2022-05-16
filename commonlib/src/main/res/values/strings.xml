@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">commonLib</string>
+    <string name="net_error">网络异常，请稍候再试</string>
+    <string name="list_loading">拼命加载中..</string>
+    <string name="list_nomore">没有更多内容了</string>
+    <string name="list_neterror">网络不给力，点击再试一次吧</string>
+
+    <string name="login_name_null">用户名不能为空</string>
+    <string name="pwd_null">密码不可为空</string>
+
+</resources>

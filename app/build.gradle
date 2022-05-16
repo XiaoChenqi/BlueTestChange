@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.bluetestchange"
+        minSdk 24
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation project(':commonlib')
+
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    // 权限请求框架：https://github.com/getActivity/XXPermissions
+    implementation 'com.github.getActivity:XXPermissions:13.5'
+    implementation 'net.vidageek:mirror:1.6.1'
+
+    //提高 Android UI 开发效率的 UI 库 http://qmuiteam.com/android
+    api('com.qmuiteam:qmui:1.1.10') {
+        exclude group: 'com.android.support'
+    }
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+
+//    implementation 'com.shuyu:GSYVideoPlayer:6.0.3'
+    api ('com.shuyu:gsyVideoPlayer-java:6.0.3'){
+        exclude group: 'com.android.support'
+    }
+
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
+
+    //implementation 'com.github.CKTim:Camera2Record:v1.0.16'//录视频的一个开源项目
+    //录制视频
+    api 'com.github.xh2015.fmtool:camera2:1.0.16'//
+    api 'com.blankj:utilcode:1.23.7'
+
+    //图片选择
+    api('com.github.xh2015.PictureSelector:picture_library:v3.1.4') {
+        exclude group: 'com.android.support'
+    }
+
+}

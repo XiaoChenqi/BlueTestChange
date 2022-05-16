@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="tabWidget">
+        <attr name="icMenu" format="reference|color" />
+        <attr name="icWidth" format="dimension" />
+        <attr name="icHeight" format="dimension" />
+        <attr name="text" format="reference|string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="integer" />
+        <attr name="secondTextSize" format="dimension" />
+        <attr name="secondTextColor" format="color" />
+        <attr name="secondText" format="reference|string" />
+    </declare-styleable>
+</resources>

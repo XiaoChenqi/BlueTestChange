@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--这个是android默认的字体颜色-->
+    <color name="defaultFontColor">#8a000000</color>
+
+    <color name="colorPrimary">#0056A4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOrange">#f1633f</color>
+    <color name="colorLightOrange">#EE9A49</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="white30per">#B3ffffff</color>
+    <color name="black30per">#B3000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDarkGray">#4A4A4A</color>
+    <color name="colorLightGray">#DEDEDE</color>
+    <color name="colorLightRed">#B22222</color>
+    <color name="colorGreen">#228B22</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="remote_list_text_title">#5B5B5B</color>
+    <color name="remote_list_text_content">#969696</color>
+    <color name="line">#DCDCDC</color>
+    <color name="orange">#F35D4E</color>
+    <color name="blue2_block">#288CE2</color>
+    <color name="bg_select_item">#e3e7ec</color>
+    <color name="gray77">#777777</color>
+    <color name="btn_submit_blue">#0056A4</color>
+    <color name="bg_btn_press_blue">#286ee2</color>
+    <color name="blue">#288ce2</color>
+    <color name="black_dark">#333333</color>
+    <color name="black_low">#555555</color>
+    <color name="bg_gray">#F0F0F0</color>
+    <!--列表底部家在框-->
+    <color name="gray_DC">#DCDCDC</color>
+    <color name="white_f0f0f0">#F0F0F0</color>
+    <!--底部导航栏-->
+    <color name="gray_bottom_bg">#DEDEDE</color>
+
+    <!--搜索bar-->
+    <color name="backgroud_shadow_line">#E6E6E6</color>
+    <!--渐变色-->
+    <color name="startColor">#2b75b9</color>
+    <color name="endColor">#74b0e6</color>
+    <!--点名列表字体颜色-->
+    <color name="checkTextColor">#999999</color>
+    <!--自定义弹出框的颜色-->
+    <color name="light_gray">#969696</color>
+    <!--itemTesxtview的底色-->
+    <color name="colorTextGreen">#66CC66</color>
+    <!--底部菜单栏颜色-->
+    <color name="menuGroup">#252C35</color>
+
+</resources>
